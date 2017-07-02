@@ -1,0 +1,1 @@
+db.movieDetails.updateMany({year: {$gte: 2010, $lte: 2013}, "imdb.votes": {$lt: 10000}, $and: [{"tomato.consensus": {$exists: true}}, {"tomato.consensus": null}]}, {$unset: {"tomato.consensus": ""}});
