@@ -1,4 +1,4 @@
-# MongoDB_University
+# MongoDB University
 
 ## For You
 MongoDB University offers free online courses to teach you how to build and deploy apps on MongoDB. Over 400,000 of your peers have already signed up. Jump in and get started.
